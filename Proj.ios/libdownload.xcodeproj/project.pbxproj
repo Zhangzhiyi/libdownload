@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8527AE3A16AD9A16006F3187 /* axel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8527AE2A16AD9A16006F3187 /* axel.cpp */; };
+		8527AE3B16AD9A16006F3187 /* conf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8527AE2C16AD9A16006F3187 /* conf.cpp */; };
+		8527AE3C16AD9A16006F3187 /* conn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8527AE2F16AD9A16006F3187 /* conn.cpp */; };
+		8527AE3D16AD9A16006F3187 /* ftp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8527AE3116AD9A16006F3187 /* ftp.cpp */; };
+		8527AE3E16AD9A16006F3187 /* http.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8527AE3316AD9A16006F3187 /* http.cpp */; };
+		8527AE3F16AD9A16006F3187 /* search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8527AE3516AD9A16006F3187 /* search.cpp */; };
+		8527AE4016AD9A16006F3187 /* tcp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8527AE3716AD9A16006F3187 /* tcp.cpp */; };
+		8527AE4116AD9A16006F3187 /* text.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8527AE3916AD9A16006F3187 /* text.cpp */; };
+		858E74AE16AD4C1700D709A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 858E74AD16AD4C1700D709A5 /* Foundation.framework */; };
+		858E74B316AD4C1700D709A5 /* libdownload.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 858E74B216AD4C1700D709A5 /* libdownload.h */; };
+		858E74B516AD4C1800D709A5 /* libdownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 858E74B416AD4C1700D709A5 /* libdownload.m */; };
+		858E74EF16AD4F7D00D709A5 /* IGGDownload.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 858E74E416AD4F7D00D709A5 /* IGGDownload.cpp */; };
+		858E74F016AD4F7D00D709A5 /* IGGDownloadSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 858E74E616AD4F7D00D709A5 /* IGGDownloadSystem.cpp */; };
+		858E74F116AD4F7D00D709A5 /* IGGDownloadTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 858E74E816AD4F7D00D709A5 /* IGGDownloadTask.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		858E74A816AD4C1700D709A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				858E74B316AD4C1700D709A5 /* libdownload.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8527AE2A16AD9A16006F3187 /* axel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = axel.cpp; sourceTree = "<group>"; };
+		8527AE2B16AD9A16006F3187 /* axel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = axel.h; sourceTree = "<group>"; };
+		8527AE2C16AD9A16006F3187 /* conf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = conf.cpp; sourceTree = "<group>"; };
+		8527AE2D16AD9A16006F3187 /* conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
+		8527AE2E16AD9A16006F3187 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		8527AE2F16AD9A16006F3187 /* conn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = conn.cpp; sourceTree = "<group>"; };
+		8527AE3016AD9A16006F3187 /* conn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conn.h; sourceTree = "<group>"; };
+		8527AE3116AD9A16006F3187 /* ftp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ftp.cpp; sourceTree = "<group>"; };
+		8527AE3216AD9A16006F3187 /* ftp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftp.h; sourceTree = "<group>"; };
+		8527AE3316AD9A16006F3187 /* http.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = http.cpp; sourceTree = "<group>"; };
+		8527AE3416AD9A16006F3187 /* http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http.h; sourceTree = "<group>"; };
+		8527AE3516AD9A16006F3187 /* search.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = search.cpp; sourceTree = "<group>"; };
+		8527AE3616AD9A16006F3187 /* search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = search.h; sourceTree = "<group>"; };
+		8527AE3716AD9A16006F3187 /* tcp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tcp.cpp; sourceTree = "<group>"; };
+		8527AE3816AD9A16006F3187 /* tcp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tcp.h; sourceTree = "<group>"; };
+		8527AE3916AD9A16006F3187 /* text.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = text.cpp; sourceTree = "<group>"; };
+		858E74AA16AD4C1700D709A5 /* liblibdownload.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibdownload.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		858E74AD16AD4C1700D709A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		858E74B116AD4C1700D709A5 /* libdownload-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libdownload-Prefix.pch"; sourceTree = "<group>"; };
+		858E74B216AD4C1700D709A5 /* libdownload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libdownload.h; sourceTree = "<group>"; };
+		858E74B416AD4C1700D709A5 /* libdownload.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libdownload.m; sourceTree = "<group>"; };
+		858E74E416AD4F7D00D709A5 /* IGGDownload.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IGGDownload.cpp; path = ../IGGDownload.cpp; sourceTree = "<group>"; };
+		858E74E516AD4F7D00D709A5 /* IGGDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGGDownload.h; path = ../IGGDownload.h; sourceTree = "<group>"; };
+		858E74E616AD4F7D00D709A5 /* IGGDownloadSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486000; lastKnownFileType = sourcecode.cpp.cpp; name = IGGDownloadSystem.cpp; path = ../IGGDownloadSystem.cpp; sourceTree = "<group>"; };
+		858E74E716AD4F7D00D709A5 /* IGGDownloadSystem.h */ = {isa = PBXFileReference; fileEncoding = 2147486000; lastKnownFileType = sourcecode.c.h; name = IGGDownloadSystem.h; path = ../IGGDownloadSystem.h; sourceTree = "<group>"; };
+		858E74E816AD4F7D00D709A5 /* IGGDownloadTask.cpp */ = {isa = PBXFileReference; fileEncoding = 2147486000; lastKnownFileType = sourcecode.cpp.cpp; name = IGGDownloadTask.cpp; path = ../IGGDownloadTask.cpp; sourceTree = "<group>"; };
+		858E74E916AD4F7D00D709A5 /* IGGDownloadTask.h */ = {isa = PBXFileReference; fileEncoding = 2147486000; lastKnownFileType = sourcecode.c.h; name = IGGDownloadTask.h; path = ../IGGDownloadTask.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		858E74A716AD4C1700D709A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				858E74AE16AD4C1700D709A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8527AE2916AD9A16006F3187 /* axel */ = {
+			isa = PBXGroup;
+			children = (
+				8527AE2A16AD9A16006F3187 /* axel.cpp */,
+				8527AE2B16AD9A16006F3187 /* axel.h */,
+				8527AE2C16AD9A16006F3187 /* conf.cpp */,
+				8527AE2D16AD9A16006F3187 /* conf.h */,
+				8527AE2E16AD9A16006F3187 /* config.h */,
+				8527AE2F16AD9A16006F3187 /* conn.cpp */,
+				8527AE3016AD9A16006F3187 /* conn.h */,
+				8527AE3116AD9A16006F3187 /* ftp.cpp */,
+				8527AE3216AD9A16006F3187 /* ftp.h */,
+				8527AE3316AD9A16006F3187 /* http.cpp */,
+				8527AE3416AD9A16006F3187 /* http.h */,
+				8527AE3516AD9A16006F3187 /* search.cpp */,
+				8527AE3616AD9A16006F3187 /* search.h */,
+				8527AE3716AD9A16006F3187 /* tcp.cpp */,
+				8527AE3816AD9A16006F3187 /* tcp.h */,
+				8527AE3916AD9A16006F3187 /* text.cpp */,
+			);
+			name = axel;
+			path = ../axel;
+			sourceTree = "<group>";
+		};
+		858E749F16AD4C1700D709A5 = {
+			isa = PBXGroup;
+			children = (
+				8527AE2916AD9A16006F3187 /* axel */,
+				858E74E416AD4F7D00D709A5 /* IGGDownload.cpp */,
+				858E74E516AD4F7D00D709A5 /* IGGDownload.h */,
+				858E74E616AD4F7D00D709A5 /* IGGDownloadSystem.cpp */,
+				858E74E716AD4F7D00D709A5 /* IGGDownloadSystem.h */,
+				858E74E816AD4F7D00D709A5 /* IGGDownloadTask.cpp */,
+				858E74E916AD4F7D00D709A5 /* IGGDownloadTask.h */,
+				858E74AF16AD4C1700D709A5 /* libdownload */,
+				858E74AC16AD4C1700D709A5 /* Frameworks */,
+				858E74AB16AD4C1700D709A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		858E74AB16AD4C1700D709A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				858E74AA16AD4C1700D709A5 /* liblibdownload.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		858E74AC16AD4C1700D709A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				858E74AD16AD4C1700D709A5 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		858E74AF16AD4C1700D709A5 /* libdownload */ = {
+			isa = PBXGroup;
+			children = (
+				858E74B216AD4C1700D709A5 /* libdownload.h */,
+				858E74B416AD4C1700D709A5 /* libdownload.m */,
+				858E74B016AD4C1700D709A5 /* Supporting Files */,
+			);
+			path = libdownload;
+			sourceTree = "<group>";
+		};
+		858E74B016AD4C1700D709A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				858E74B116AD4C1700D709A5 /* libdownload-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		858E74A916AD4C1700D709A5 /* libdownload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858E74B816AD4C1800D709A5 /* Build configuration list for PBXNativeTarget "libdownload" */;
+			buildPhases = (
+				858E74A616AD4C1700D709A5 /* Sources */,
+				858E74A716AD4C1700D709A5 /* Frameworks */,
+				858E74A816AD4C1700D709A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libdownload;
+			productName = libdownload;
+			productReference = 858E74AA16AD4C1700D709A5 /* liblibdownload.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		858E74A116AD4C1700D709A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = wj;
+			};
+			buildConfigurationList = 858E74A416AD4C1700D709A5 /* Build configuration list for PBXProject "libdownload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 858E749F16AD4C1700D709A5;
+			productRefGroup = 858E74AB16AD4C1700D709A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				858E74A916AD4C1700D709A5 /* libdownload */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		858E74A616AD4C1700D709A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				858E74B516AD4C1800D709A5 /* libdownload.m in Sources */,
+				858E74EF16AD4F7D00D709A5 /* IGGDownload.cpp in Sources */,
+				858E74F016AD4F7D00D709A5 /* IGGDownloadSystem.cpp in Sources */,
+				858E74F116AD4F7D00D709A5 /* IGGDownloadTask.cpp in Sources */,
+				8527AE3A16AD9A16006F3187 /* axel.cpp in Sources */,
+				8527AE3B16AD9A16006F3187 /* conf.cpp in Sources */,
+				8527AE3C16AD9A16006F3187 /* conn.cpp in Sources */,
+				8527AE3D16AD9A16006F3187 /* ftp.cpp in Sources */,
+				8527AE3E16AD9A16006F3187 /* http.cpp in Sources */,
+				8527AE3F16AD9A16006F3187 /* search.cpp in Sources */,
+				8527AE4016AD9A16006F3187 /* tcp.cpp in Sources */,
+				8527AE4116AD9A16006F3187 /* text.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		858E74B616AD4C1800D709A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		858E74B716AD4C1800D709A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		858E74B916AD4C1800D709A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				DSTROOT = /tmp/libdownload.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libdownload/libdownload-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					MACOS_CLASSIC,
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					../../basecode,
+					"../c-ares",
+					../expat,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		858E74BA16AD4C1800D709A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				DSTROOT = /tmp/libdownload.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libdownload/libdownload-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = MACOS_CLASSIC;
+				HEADER_SEARCH_PATHS = (
+					../../basecode,
+					"../c-ares",
+					../expat,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		858E74A416AD4C1700D709A5 /* Build configuration list for PBXProject "libdownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858E74B616AD4C1800D709A5 /* Debug */,
+				858E74B716AD4C1800D709A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		858E74B816AD4C1800D709A5 /* Build configuration list for PBXNativeTarget "libdownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858E74B916AD4C1800D709A5 /* Debug */,
+				858E74BA16AD4C1800D709A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 858E74A116AD4C1700D709A5 /* Project object */;
+}

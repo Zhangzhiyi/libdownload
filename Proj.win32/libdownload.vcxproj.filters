@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libdownload">
+      <UniqueIdentifier>{b24706ff-8957-4b51-bb37-584b933d5fb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="axel">
+      <UniqueIdentifier>{07856618-f8d7-413c-8edd-31bb1298ccf2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\IGGDownloadTask.cpp">
+      <Filter>libdownload</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IGGDownloadSystem.cpp">
+      <Filter>libdownload</Filter>
+    </ClCompile>
+    <ClCompile Include="..\axel\axel.cpp">
+      <Filter>axel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\axel\conf.cpp">
+      <Filter>axel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\axel\conn.cpp">
+      <Filter>axel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\axel\ftp.cpp">
+      <Filter>axel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\axel\http.cpp">
+      <Filter>axel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\axel\search.cpp">
+      <Filter>axel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\axel\tcp.cpp">
+      <Filter>axel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\axel\text.cpp">
+      <Filter>axel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IGGDownload.cpp">
+      <Filter>libdownload</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\IGGDownloadTask.h">
+      <Filter>libdownload</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IGGDownloadSystem.h">
+      <Filter>libdownload</Filter>
+    </ClInclude>
+    <ClInclude Include="..\axel\axel.h">
+      <Filter>axel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\axel\conf.h">
+      <Filter>axel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\axel\config.h">
+      <Filter>axel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\axel\conn.h">
+      <Filter>axel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\axel\ftp.h">
+      <Filter>axel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\axel\http.h">
+      <Filter>axel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\axel\search.h">
+      <Filter>axel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\axel\tcp.h">
+      <Filter>axel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IGGDownload.h">
+      <Filter>libdownload</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
