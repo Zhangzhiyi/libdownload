@@ -19,9 +19,10 @@
     <ClCompile Include="..\axel\search.cpp" />
     <ClCompile Include="..\axel\tcp.cpp" />
     <ClCompile Include="..\axel\text.cpp" />
+    <ClCompile Include="..\GlobalFunction.cpp" />
     <ClCompile Include="..\IGGDownload.cpp" />
-    <ClCompile Include="..\IGGDownloadSystem.cpp" />
-    <ClCompile Include="..\IGGDownloadTask.cpp" />
+    <ClCompile Include="..\LogManager.cpp" />
+    <ClCompile Include="..\StringFormat.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\axel\axel.h" />
@@ -32,9 +33,10 @@
     <ClInclude Include="..\axel\http.h" />
     <ClInclude Include="..\axel\search.h" />
     <ClInclude Include="..\axel\tcp.h" />
+    <ClInclude Include="..\GlobalFunction.h" />
     <ClInclude Include="..\IGGDownload.h" />
-    <ClInclude Include="..\IGGDownloadSystem.h" />
-    <ClInclude Include="..\IGGDownloadTask.h" />
+    <ClInclude Include="..\LogManager.h" />
+    <ClInclude Include="..\StringFormat.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A6E15121-9B1C-470C-92AA-FF2B541653BD}</ProjectGuid>
@@ -72,7 +74,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;COMPILED_FROM_DSP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>../include;../../basecode;../pthread</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../include;../../basecode;../pthread;../</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>

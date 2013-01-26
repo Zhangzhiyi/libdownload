@@ -5,11 +5,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libdownload", "libdownload.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testdownload", "testdownload.vcxproj", "{C5695747-CB6A-4075-A9B4-CC1BECF6CCE2}"
 	ProjectSection(ProjectDependencies) = postProject
-		{EDB88A0C-6B9C-4761-A356-3E71BEDA07F9} = {EDB88A0C-6B9C-4761-A356-3E71BEDA07F9}
 		{A6E15121-9B1C-470C-92AA-FF2B541653BD} = {A6E15121-9B1C-470C-92AA-FF2B541653BD}
 	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "basecode", "..\..\basecode\Proj.win32\basecode.vcxproj", "{EDB88A0C-6B9C-4761-A356-3E71BEDA07F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +22,6 @@ Global
 		{C5695747-CB6A-4075-A9B4-CC1BECF6CCE2}.Debug|Win32.Build.0 = Debug|Win32
 		{C5695747-CB6A-4075-A9B4-CC1BECF6CCE2}.Release|Win32.ActiveCfg = Release|Win32
 		{C5695747-CB6A-4075-A9B4-CC1BECF6CCE2}.Release|Win32.Build.0 = Release|Win32
-		{EDB88A0C-6B9C-4761-A356-3E71BEDA07F9}.Debug|Win32.ActiveCfg = Debug|Win32
-		{EDB88A0C-6B9C-4761-A356-3E71BEDA07F9}.Debug|Win32.Build.0 = Debug|Win32
-		{EDB88A0C-6B9C-4761-A356-3E71BEDA07F9}.Release|Win32.ActiveCfg = Release|Win32
-		{EDB88A0C-6B9C-4761-A356-3E71BEDA07F9}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

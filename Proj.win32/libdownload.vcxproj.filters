@@ -9,12 +9,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\IGGDownloadTask.cpp">
-      <Filter>libdownload</Filter>
-    </ClCompile>
-    <ClCompile Include="..\IGGDownloadSystem.cpp">
-      <Filter>libdownload</Filter>
-    </ClCompile>
     <ClCompile Include="..\axel\axel.cpp">
       <Filter>axel</Filter>
     </ClCompile>
@@ -42,14 +36,17 @@
     <ClCompile Include="..\IGGDownload.cpp">
       <Filter>libdownload</Filter>
     </ClCompile>
+    <ClCompile Include="..\GlobalFunction.cpp">
+      <Filter>libdownload</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LogManager.cpp">
+      <Filter>libdownload</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StringFormat.cpp">
+      <Filter>libdownload</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\IGGDownloadTask.h">
-      <Filter>libdownload</Filter>
-    </ClInclude>
-    <ClInclude Include="..\IGGDownloadSystem.h">
-      <Filter>libdownload</Filter>
-    </ClInclude>
     <ClInclude Include="..\axel\axel.h">
       <Filter>axel</Filter>
     </ClInclude>
@@ -75,6 +72,15 @@
       <Filter>axel</Filter>
     </ClInclude>
     <ClInclude Include="..\IGGDownload.h">
+      <Filter>libdownload</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GlobalFunction.h">
+      <Filter>libdownload</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LogManager.h">
+      <Filter>libdownload</Filter>
+    </ClInclude>
+    <ClInclude Include="..\StringFormat.h">
       <Filter>libdownload</Filter>
     </ClInclude>
   </ItemGroup>
